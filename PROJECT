@@ -1,0 +1,6 @@
+domain: kalrainfosystems.com
+layout:
+- go.kubebuilder.io/v3
+projectName: sample
+repo: sandeep.kalra/gosample
+version: "3"
