@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: sample
 repo: sandeep.kalra/gosample
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kalrainfosystems.com
+  group: prj-secret
+  kind: PrjSecretApi
+  path: sandeep.kalra/gosample/api/v1
+  version: v1
 version: "3"
