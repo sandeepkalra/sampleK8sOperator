@@ -28,14 +28,15 @@ type PrjSecretApiSpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 
-	// Foo is an example field of PrjSecretApi. Edit prjsecretapi_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Name string `json:"name,omitempty"`
+	Size int    `json:"size,omitempty"`
 }
 
 // PrjSecretApiStatus defines the observed state of PrjSecretApi
 type PrjSecretApiStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+	Name string `json:"name,omitempty"`
 }
 
 //+kubebuilder:object:root=true
